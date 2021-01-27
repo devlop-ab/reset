@@ -1,0 +1,39 @@
+{
+    "name": "@devlop-ab/reset",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [
+        "reset-css"
+    ],
+    "author": "Johan Rosenson",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devlop-ab/reset.git"
+    },
+    "bugs": {
+        "url": "https://github.com/devlop-ab/reset/issues"
+    },
+    "homepage": "https://github.com/devlop-ab/reset",
+    "main": "index.css",
+    "files": [
+        "index.css",
+        "index.css.map"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "sass reset.scss index.css",
+        "dev": "npm run build",
+        "watch": "npm run build -- --watch",
+        "prod": "npm run build -- --style compressed",
+        "prepack": "npm run prod",
+        "prepublishOnly": "npm run prod"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "sass": "^1.32.5",
+        "tailwindcss": "2.0.2"
+    }
+}
