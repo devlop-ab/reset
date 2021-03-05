@@ -9,12 +9,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/devlop-ab/reset.git"
+        "url": "https://github.com/devlop/reset.git"
     },
     "bugs": {
-        "url": "https://github.com/devlop-ab/reset/issues"
+        "url": "https://github.com/devlop/reset/issues"
     },
-    "homepage": "https://github.com/devlop-ab/reset",
+    "homepage": "https://github.com/devlop/reset",
     "main": "index.css",
     "files": [
         "index.css",
